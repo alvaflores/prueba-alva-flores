@@ -41,7 +41,7 @@ DB_USERNAME=root
 DB_PASSWORD=secret
 ```
 
-## Crear el archivo .env
+## Generar una clave
 
 La clave de aplicación es una cadena aleatoria almacenada en la clave APP_KEY dentro del archivo .env. Notarás que también falta.
 
@@ -49,7 +49,6 @@ Para crear la nueva clave e insertarla automáticamente en el .env, ejecutaremos
 
 ```bash
 php artisan key:generate
-
 ```
 ## Ejecutar migraciones
 
