@@ -38,8 +38,14 @@ Entre las bases de datos MySQL y creamos una base de datos con el nombre prueba_
 ## Crear el archivo .env
 
 Podemos duplicar el archivo .env.example, renombrarlo a .env e incluir los datos de conexión de la base de datos que indicamos en el paso anterior.
-
-![img.png](img.png)
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=prueba_seleccion
+DB_USERNAME=root
+DB_PASSWORD=alvaflores
+```
 
 ## Crear el archivo .env
 
